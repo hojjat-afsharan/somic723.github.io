@@ -1,0 +1,71 @@
+h1{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 400%;
+	margin: 0 0 0 10px;
+	
+}
+
+body{
+	margin-left: 20px;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+.blueviolet{
+	color:#80305d;
+}
+
+.crismon{
+	color:#e64545;
+}
+
+.fadedyellow{
+	color:#f0c273;
+}
+
+#github-text{
+	float: right;
+	margin-top: 10px;
+}
+
+#github-logo{
+	float: right;
+}
+
+.clear-float{
+	clear: both;
+}
+
+/* Tooltip container */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	/*border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 100px;
+	background-color: blueviolet;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+   
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+	top: 40px;
+	left: -70px;
+}
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
