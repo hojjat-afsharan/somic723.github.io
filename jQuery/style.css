@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+}
+
+.circle{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#square{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
